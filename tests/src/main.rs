@@ -1,9 +1,9 @@
 fn main() {
-    let y = {
-        let x = 3;
-        (x + 1,
-        x * 5)
-    };
+    let x = plus_one(5);
 
-    println!("The value of y is: {}, {}", y.0, y.1);
+    println!("The value of x is: {}", x);
+}
+
+fn plus_one(x: i32) -> () {
+    x + 1;
 }
