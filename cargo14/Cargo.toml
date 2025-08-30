@@ -1,0 +1,8 @@
+[package]
+name = "chapter14-crate"
+version = "0.1.0"
+edition = "2024"
+description = "A crate I'm publishing to learn about crates.io and finish chapter 14 of the rust book."
+license = "MIT OR Apache-2.0"
+
+[dependencies]
